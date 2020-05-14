@@ -9,47 +9,103 @@
 	<meta name="description" content="Rekrutacja na profil humanistyczny" />
 	<meta name="keywords" content="polski, historia, wos, slo, stalowawola" />
 	
-    <style>
-	  .content { width: 980px; margin: 0 auto; overflow: hidden; }
-	  body{
-      background-color: lightblue;
-      }
-      h1{
-      text-align: center;
-      background-color: lightgray;
-	font-family: sans;
-      }
-      .subt{
-      font-weight: bold;
-	  font-size: 1.5em;
-      }
-      .lista{
-      background-color: lightgray;
-	  font-size: 1.3em;
-      }
-      #inf{
-      font-style: italic;
-	  font-size: 1.1em;
-	  }
-	  #pic{
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-	  width: 95%;
-	  }
-      td, th{
-	  border: 1px solid black;
-	  }
-	  #tab{
-	  background-color: lightgray;
-	  font-size: 1.2em;
-	  }
-  </style>
+	<style>
+	#container
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgray;
+		width: 120px;
+		min-height: 1400px;
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 640px;
+	}
+	#ad
+	{
+		float: left;
+		width: 160px;
+		min-height: 1400px;
+		padding: 10px;
+		background-color: lightgray;
+	}
+	#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}	
+	h1{
+		text-align: center;
+      		background-color: lightgray;
+		font-family: sans;
+        }
+        .subt{
+      		font-weight: bold;
+	  	font-size: 1.3em;
+        }
+        .lista{
+      		background-color: lightgray;
+	  	font-size: 1.1em;
+        }
+        #inf{
+      		font-style: italic;
+	 	font-size: 1em;
+	}
+	#pic{
+	  	display: block;
+	  	margin-left: auto;
+	 	margin-right: auto;
+	 	width: 95%;
+	}
+        td, th{
+	  	border: 1px solid black;
+	}
+	#tab{
+	  	width: 600px;
+		background-color: lightgray;
+	  	font-size: 1em;
+	}
+	</style>
 </head>
+
 <body>
-	<h1>1A - rozszerzone treści nauczania <br />z j. polskiego, historii <br />i wiedzy o społeczeństwie</h1>
-	<img src="humany.png" id="pic">
-		<div class="content">
+
+	<div id="container">
+	
+		<div id="logo">
+			<img src="humany.png" width="900px">
+		</div>
+	
+		<div id="nav">
+			1A <br />
+			1B <br />
+			1C <br />
+			1D <br />
+			1E <br />
+			1F <br />
+		</div>
+		
+		<div id="content">
+			<h1>1A - rozszerzone treści nauczania <br />z j. polskiego, historii <br />i wiedzy o społeczeństwie</h1>
 		<p class="subt">Powinieneś wybrać klasę o takim nachyleniu przedmiotowym, jeśli:</p>
 			<ul class="lista">chcesz rozwijać zainteresowania naukami humanistycznymi;</ul>
 			<ul class="lista">marzysz o podjęciu studi&oacute;w humanistycznych lub społecznych (prawo, filologia polska, filozofia, dziennikarstwo, kulturoznawstwo, stosunki międzynarodowe, europeistyka) na takich uczelniach jak: Uniwersytet Jagielloński, Uniwersytet Warszawski, Uniwersytet Rzeszowski, Uniwersytet Adama Mickiewicza w Poznaniu;</ul>
@@ -62,7 +118,7 @@
 		<p></p>
 		<p></p>
 		<p class="subt">Rozkład godzin dla klasy A:</p>
-		</div>
+	
 			<table id="tab" width="800" align="center">
 				<thead>
 					<tr>
@@ -238,5 +294,18 @@
 				</tbody>
 			</table>
 			<p></p>
+			
+		</div>
+		
+		<div id="ad">
+			<img src="reklama.jpg" />
+		</div>
+		
+		<div id="footer">
+			Michał Dul, kl. 2C
+		</div>
+	
+	</div>
+
 </body>
 </html>
